@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type=text/css href="style.css">
+    <title>D.B. Cooper</title>
+</head>
+<body class="background">
+<div class="topnav">
+  <a class="active" href="homepage.html">Home</a>
+  <a href="evidence.html">Evidence</a>
+  <a href="links.html">Research Links</a>
+</div>
+    <center>
+    <u><h1>Who was D.B. Cooper?</u></h1>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/a/a8/D.B._Cooper_Composite_Sketch_B.jpg" alt="D.B. Cooper, colored and plain image.">
+    <p class="info">D. B. Cooper hijacked a plane, stole $200,000, and jumped out of the plane, then was never seen again.</p>
+    
+</center>
+<!--The password is D.B.Cooper-->
+<footer>
+    <p>
+        <script>
+            function checkPassword() {
+             var password = document.getElementById("passwordBox");
+             var passwordText = password.value;
+             if(passwordText == "D.B.Cooper") {
+              return true;
+             }
+             alert("Text Input invalid. Type in correct password to recieve authorization for private link.");
+             return false;
+             }
+           </script>
+          </head>
+          <body>
+              <div style="font-size:large;">
+           <center><p class="password">ENTER THE PASSWORD! Click the link below to access a secret website about who D.B. Cooper is, and where he went, after hijacking the plane.</p>
+           <p>Password:<input id="passwordBox" type="password"/>
+            <br>
+            Click <a href="secretpage.html" onclick="return checkPassword();">here</a> to check the password. <br>It's not his name. Totally...</p> 
+    </p>
+    </footer>
+        <p class="documentary">Click the following link to watch a documentary about D.B. Cooper. <a target="_blank" id="video" href="https://play.history.com/shows/historys-greatest-mysteries/season-4/episode-14">HISTORY.com</a></p>
+</body>
+</html>
