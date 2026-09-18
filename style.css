@@ -1,0 +1,114 @@
+ h1 {
+    color:black;
+    font-family: 'Courier New', Courier, monospace;
+ }
+ p {
+    font-weight: 900;
+    font-size: larger;
+    font-family:Arial, Helvetica, sans-serif;
+ }
+ .background {
+   background-color: green;
+   }
+ a {
+    color: grey;
+    font-style: italic;
+    font-size: large;
+ }
+ footer {
+    outline: 5px solid green;
+    background-color: rgb(1, 95, 1);
+    
+ }
+ .info {
+    outline: 5px solid rgb(66, 0, 128);
+    background-color: rgb(44, 0, 116);
+    color: rgb(167, 167, 0);
+}
+.head {
+   font-size: xx-large;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.documentary {
+   font-style: bold;
+   font-weight: 500;
+   font-size: larger;
+   border: 4px solid rgb(117, 44, 44);
+   background-color: rgb(63, 20, 20);
+   color: aliceblue;
+   text-align: center;
+}
+.password{
+   font-size: larger;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   font-style: bold;
+}
+#video {
+   font-weight: bolder;
+   font-size: large;
+   font-style: italic;
+}
+img {
+   height:350px ;
+   width: auto ;
+   }
+   h4 {
+      color: rgb(88, 88, 255);
+      border:5px solid black;
+      background-color: rgb(68, 68, 68);
+      font-size: xx-large;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   }
+   .description {
+      font-size: x-large;
+      font-family: 'Times New Roman', Times, serif;
+      color: rgb(0, 225, 255);
+      text-align: center;
+      border: 5px solid rgb(34, 3, 63);
+      background-color: rgb(95, 10, 185);
+      font-style: bolder;
+   }
+.warning {
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   color: red;
+   font-size: xx-large;
+   margin: 15px;
+   border: 5px, dashed, green;
+}
+.heading {
+   font-weight: 400;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   font-size: 45px;
+   color: navy;
+}
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  font-size: 30px;
+  text-decoration: none;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.topnav a:hover {
+  background-color: #7c7b7b;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #bbeedb;
+  color: black;
+}
+#linkPage {
+   font-family: 'Times New Roman', Times, serif;
+   font-size: x-large;
+   font-weight: 800;
+   color: black;
+   margin: 15px;
+}
